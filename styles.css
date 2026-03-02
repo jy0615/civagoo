@@ -986,6 +986,21 @@ body {
     font-size: 16px;
   }
 
+  /* user-provided hero adjustments */
+  #hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    right: 5%;
+    text-align: left;
+  }
+
   .navbar {
     padding: 12px 16px;
     grid-template-columns: auto 1fr auto;
