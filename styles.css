@@ -1457,3 +1457,17 @@ body {
     display: block;
   }
 }
+
+
+@media (max-width: 576px) {
+  .slides { transform: translateX(0) !important; width: 100% !important; height: 100% !important; }
+  .slide { display: none !important; min-width: 100% !important; height: 100% !important; }
+  .slide:nth-child(2) { display: block !important; }
+
+  .slider { height: calc(100vh - 52px) !important; background: #000 !important; }
+  .slide img { width: 100% !important; height: 100% !important; max-height: none !important; object-fit: cover !important; display: block !important; }
+
+  .prev, .next { display: none !important; }
+
+  .hero-overlay { left: auto !important; right: 6% !important; top: 62% !important; transform: translateY(-50%) !important; text-align: left !important; max-width: 70% !important; }
+}
