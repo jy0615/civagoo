@@ -1440,3 +1440,20 @@ body {
   .footer-brand .brand-title { font-size: 56px; }
   .footer-brand .brand-title::after { width: 220px; }
 }
+
+@media (max-width: 576px) {
+
+  .slides {
+    transform: none !important;
+    display:  block;
+
+  }
+
+  .slides {
+    display:  none;
+  }
+
+  .slide:nth-child(2) {
+    display: block;
+  }
+}
