@@ -1459,6 +1459,7 @@ body {
 }
 
 
+
 @media (max-width: 576px) {
   .slides { transform: translateX(0) !important; width: 100% !important; height: 100% !important; }
   .slide { display: none !important; min-width: 100% !important; height: 100% !important; }
